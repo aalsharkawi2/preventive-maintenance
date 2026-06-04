@@ -115,6 +115,27 @@ npx expo start
 Requires Node.js 18+ and the [Expo](https://docs.expo.dev/) toolchain. For a native Android
 build, an Android SDK / emulator is needed.
 
+### Run on your phone with Expo Go
+
+The quickest way to try the app on a real device — including the camera and photo flow:
+
+```bash
+# 1. Install dependencies
+yarn install
+
+# 2. Start the dev server targeting Expo Go
+npx expo start --go
+```
+
+1. Install **[Expo Go](https://expo.dev/go)** from the App Store / Play Store.
+2. Scan the QR code printed in the terminal — with **Expo Go** on Android, or the **Camera**
+   app on iOS.
+3. Keep your phone and computer on the same Wi-Fi (or add `--tunnel` if they aren't).
+
+> The `--go` flag is used because the project includes `expo-dev-client`; it tells Expo to
+> run in Expo Go rather than a custom dev build. A few native behaviours can differ between
+> Expo Go and a full dev/release build.
+
 ## Roadmap
 
 The current build is the front-end and data layer. Designed and modeled, but not yet
