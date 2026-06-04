@@ -30,20 +30,24 @@ the weekly preventive-maintenance reports. This app replaces that with a structu
 guided workflow so every session is captured the same way.
 
 > **Note:** the production UI is **Arabic / right-to-left**. The screenshots below were
-> captured from the running app (Expo web build).
+> captured on an Android device.
 
 ## Screens
 
-The core of the app is the **guided maintenance form** — pick the maintenance and component
-type, enter the device identifier, then check off the actions taken.
+**App & records**
 
-| Maintenance form — device identifier | Maintenance form — actions taken |
-|:---:|:---:|
-| ![Device identifier entry](docs/screenshots/02b-form-top.png) | ![Actions checklist](docs/screenshots/02-maintenance-form.png) |
+| Login | Home | History | Settings |
+|:---:|:---:|:---:|:---:|
+| ![Login](docs/screenshots/01-login.jpg) | ![Home](docs/screenshots/02-home.jpg) | ![History](docs/screenshots/09-history.jpg) | ![Settings](docs/screenshots/10-settings.jpg) |
 
-| Home & Navigation | History Log | Settings |
+**Maintenance workflow** — pick the maintenance & component type, enter the device identifier,
+check off the actions, add notes, then capture and crop a component photo:
+
+| Device identifier | Actions checklist | Custom notes |
 |:---:|:---:|:---:|
-| ![Home](docs/screenshots/01-home.png) | ![History](docs/screenshots/03-history.png) | ![Settings](docs/screenshots/04-settings.png) |
+| ![Device identifier](docs/screenshots/03-form-identifier.jpg) | ![Actions checklist](docs/screenshots/04-form-actions.jpg) | ![Custom notes](docs/screenshots/05-form-notes.jpg) |
+| **In-app camera** | **Crop editor** | **Photo attached** |
+| ![In-app camera](docs/screenshots/06-camera.jpg) | ![Crop editor](docs/screenshots/07-image-editor.jpg) | ![Photo attached](docs/screenshots/08-form-photo.jpg) |
 
 ## Workflow
 

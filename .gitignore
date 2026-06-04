@@ -36,3 +36,6 @@ yarn-error.*
 # personal / portfolio docs (kept local, not published)
 /cv/
 *.docx
+
+# raw screenshot dump (curated copies live in docs/screenshots)
+/new-screenshots/
