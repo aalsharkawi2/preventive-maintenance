@@ -132,9 +132,16 @@ npx expo start --go
    app on iOS.
 3. Keep your phone and computer on the same Wi-Fi (or add `--tunnel` if they aren't).
 
-> The `--go` flag is used because the project includes `expo-dev-client`; it tells Expo to
-> run in Expo Go rather than a custom dev build. A few native behaviours can differ between
-> Expo Go and a full dev/release build.
+> **Expo Go version matters.** This project targets **Expo SDK 54**, so you need an Expo Go
+> build that supports SDK 54. Each Expo Go release only supports specific SDK versions, and
+> the latest store version may target a newer SDK — if it refuses to open the project, install
+> an [Expo Go build for SDK 54](https://expo.dev/go?sdkVersion=54&platform=android&device=true)
+> (older builds are available for Android), or upgrade the project with `npx expo install expo@latest && npx expo install --fix`.
+>
+> The `--go` flag is needed because the project includes `expo-dev-client` (it would otherwise
+> open a custom dev build). For a setup that doesn't depend on the Expo Go version at all, build
+> a **dev client** instead: `npx expo run:android` (or `run:ios`). A few native behaviours can
+> differ between Expo Go and a dev/release build.
 
 ## Roadmap
 
