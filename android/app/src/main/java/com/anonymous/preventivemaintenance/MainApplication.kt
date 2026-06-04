@@ -1,4 +1,4 @@
-package com.anonymous.predictivemaintenance
+package com.anonymous.preventivemaintenance
 
 import android.app.Application
 import android.content.res.Configuration

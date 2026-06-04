@@ -31,7 +31,7 @@
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="myapp"/>
-        <data android:scheme="exp+electricity-predictive-maintenance"/>
+        <data android:scheme="exp+preventive-maintenance"/>
       </intent-filter>
     </activity>
   </application>

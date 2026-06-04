@@ -1,4 +1,4 @@
-package com.anonymous.predictivemaintenance
+package com.anonymous.preventivemaintenance
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

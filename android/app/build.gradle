@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.predictivemaintenance'
+    namespace 'com.anonymous.preventivemaintenance'
     defaultConfig {
-        applicationId 'com.anonymous.predictivemaintenance'
+        applicationId 'com.anonymous.preventivemaintenance'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
