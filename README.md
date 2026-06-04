@@ -14,6 +14,12 @@
   <img alt="Reanimated" src="https://img.shields.io/badge/Reanimated-4-001A72">
 </p>
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/aalsharkawi2/preventive-maintenance)
+
+> Launches the **Expo web** build in your browser — great for exploring the UI and code.
+> Native-only features (camera capture, saving to the photo library) need a device or
+> emulator; see [Getting started](#getting-started).
+
 ---
 
 ## The problem
